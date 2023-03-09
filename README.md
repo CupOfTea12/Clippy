@@ -1,2 +1,2 @@
 # VRC Toolbox
-yes...
+usefull tools for world/avatar creation
