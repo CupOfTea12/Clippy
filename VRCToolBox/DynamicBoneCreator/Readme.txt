@@ -21,3 +21,5 @@ To add the bones to the list, you can follow these steps:
 10.Modify the damping, elasticity, stiffness, and inert values in the "DynamicBoneCreator" script as per your requirements.
 
 11.Play the scene to test the dynamic bones.
+
+Once you've added the bones to the list, the script will automatically attach dynamic bones to those bones with the specified settings when you play the scene.
