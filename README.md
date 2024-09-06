@@ -1,16 +1,21 @@
-# VRC Toolbox
-usefull tools for world/avatar creation
+# Clippy 0.1
+usefull clipboard tool for quick image editing
 
-# World Creation Tools
-- [**Object Flying script 1.0**](https://github.com/CupOfTea12/VRC-Toolbox/tree/main/VRCToolBox/Flying)
-- [**Mirror Toggle script 1.0**](https://github.com/CupOfTea12/VRC-Toolbox/tree/main/VRCToolBox/Mirror%20Toggle)
-- [**PickUp Toggle script 1.0**](https://github.com/CupOfTea12/VRC-Toolbox/tree/main/VRCToolBox/PickUp%20Toggles)
-
-# Avatar Creation Tools
-- [**Dynamic Bone Creator 1.0**](https://github.com/CupOfTea12/VRC-Toolbox/tree/main/VRCToolBox/DynamicBoneCreator)
+# Tools
+- Dark Mode Toggle: A button to switch between light and dark themes, enhancing usability based on user preference.
+- Image Preview: The main window displays a preview of the image copied from the clipboard or dragged into the window
+- Resolution Display: Shows the current resolution of the displayed image, updating in real time as images are processed
+- Zoom In/Out: Provides buttons to zoom the image in and out for better viewing
+- Image Rotation: A button to rotate the image, allowing users to adjust orientation easily.
+- Custom Resizing: Users can input desired dimensions to resize the image dynamically.
+- Drag-and-Drop Support: Users can drag images directly into the application window to load them
+- Clipboard Monitoring: The app periodically checks the clipboard for new images and updates the display accordingly.
+- Save Functionality: Users can save the image in various formats (PNG, JPEG, BMP) based on selection
 
 # How to use
-- In every folder , there is a **readme.txt** for how to use the script and how to do the basic setup in Unity
+- Open a terminal or command prompt.
+- Navigate to the directory where the files are located
+- Run the command: ''python install_libraries.py'' - This will automatically install the required libraries (Pillow and tkinterdnd2) for your Clippy application.
+- then run main.py, a dialog window should pop up
+- ![image](https://github.com/user-attachments/assets/764078ed-9f45-4928-8d82-ddd70e2acbf2)
 
-# Contribution
-- If you have any great ideas for more scripts, just contact me on telegram ( @Zjedzkolac.exe). If you want to contribute on this repo, feel free to <3
